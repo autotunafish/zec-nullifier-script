@@ -1,0 +1,3 @@
+curl --silent --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["4122052"] }' -H 'Content-type: application/json' http://127.0.0.1:18232/
+
+curl --silent --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getrawtransaction", "params": ["e6fdc9e38c117251f03c7e0017ad10f060b25c5abb7722e8a0a43604dc8fe393", 1] }' -H 'Content-type: application/json' http://127.0.0.1:18232/
